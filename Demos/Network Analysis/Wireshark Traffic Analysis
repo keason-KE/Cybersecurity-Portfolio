@@ -1,5 +1,7 @@
 # 📡 Wireshark Traffic Analysis Demo
 
+▶️Full Walkthrough: https://youtu.be/Twgs1CZ13V0
+
 ## 🎯 Objective
 
 Demonstrate the use of Wireshark to capture and analyze network traffic, identify protocols, and detect potentially suspicious activity.
@@ -26,13 +28,16 @@ Demonstrate the use of Wireshark to capture and analyze network traffic, identif
 
 Captured live network traffic to analyze communication between devices and identify protocols and patterns.
 
-📸 Screenshot:  
-![Packet Capture](screenshots/capture.png)
+## 🔍 Key Findings
 
----
+- Identified DNS queries resolving external domains  
+- Observed HTTP traffic in plaintext  
+- Reconstructed full TCP sessions  
 
-## 🔍 Analysis Process
+## 🧠 Key Takeaways
 
-### 1. Identify Protocols
+- Network traffic can reveal sensitive information if not encrypted  
+- Packet filtering is essential for efficient analysis  
+- Following streams helps reconstruct communication  
+- Monitoring unusual ports can indicate suspicious activity 
 
-Filtered traffic to identify common protocols.
