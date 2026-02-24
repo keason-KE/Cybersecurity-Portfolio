@@ -1,0 +1,38 @@
+# 📡 Wireshark Traffic Analysis Demo
+
+## 🎯 Objective
+
+Demonstrate the use of Wireshark to capture and analyze network traffic, identify protocols, and detect potentially suspicious activity.
+
+---
+
+## 🧰 Tools Used
+
+- Wireshark  
+- Kali Linux / Windows  
+- Test environment (lab traffic / pcap file)  
+
+---
+
+## 🖥️ Lab Environment
+
+- Host Machine: Kali Linux / Windows  
+- Network: Local lab environment  
+- Traffic Source: Simulated browsing/test pcap file  
+
+---
+
+## 📦 Capture Overview
+
+Captured live network traffic to analyze communication between devices and identify protocols and patterns.
+
+📸 Screenshot:  
+![Packet Capture](screenshots/capture.png)
+
+---
+
+## 🔍 Analysis Process
+
+### 1. Identify Protocols
+
+Filtered traffic to identify common protocols.
