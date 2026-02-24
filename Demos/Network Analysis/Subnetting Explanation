@@ -1,0 +1,47 @@
+# 🌐 Subnetting Explained | Networking Demo
+
+## 🎯 Objective
+
+Video Walkthrough: https://youtu.be/tFZkJNMbSRk
+
+Explain the purpose of subnetting, how subnet masks work, and how to determine network and host portions of an IP address using a practical example.
+
+---
+
+##  What is Subnetting?
+
+Subnetting is the process of dividing a larger network into smaller, more manageable subnetworks.
+
+### Why Subnet?
+
+- Improves network performance  
+- Enhances security  
+- Reduces broadcast traffic  
+- Allows better IP address management  
+
+---
+
+## 🧩 Key Concepts
+
+- IP Address
+- Subnet Mask
+- Network Portion
+- Host Portion
+- CIDR Notation
+
+---
+
+## 🧠 Key Takeaways
+
+- Subnet masks determine network vs host portions  
+- Network ID identifies the subnet  
+- The broadcast address communicates with all devices  
+- Subnetting improves efficiency and security  
+
+## 🛡️ Security Relevance
+
+Subnetting is important in cybersecurity because it:
+
+- Segments networks to limit attack spread  
+- Helps isolate sensitive systems  
+- Supports firewall and access control rules  
