@@ -1,0 +1,212 @@
+# 🛡️ CIS Controls Implementation | Central-Western Financial Group
+
+
+## 🎯 Objective
+
+This project demonstrates the implementation of foundational cybersecurity controls based on the CIS Critical Security Controls (v8) framework for a fictional financial organization. The goal is to reduce risk, improve visibility, and strengthen the company’s overall security posture.
+
+---
+
+## 🏢 Company Profile
+
+**Company Name:** Central-Western Financial Group  
+**Industry:** Financial Services (Trust Bank)  
+**Size:** ~500 Employees  
+**Infrastructure:** Hybrid (On-prem + Cloud-based transaction processing)  
+
+### 📌 Business Context
+
+Central-Western Financial Group operates in a highly regulated environment and is required to comply with the Gramm-Leach-Bliley Act (GLBA). The organization conducts regular internal and external audits to assess compliance and risk.
+
+Despite these efforts, the company has experienced several recent security incidents, including:
+
+- A successful phishing attack  
+- A minor ransomware attempt  
+
+These events highlight the need for stronger foundational security controls.
+
+---
+
+## ⚠️ Identified Risks
+
+- Lack of complete asset visibility  
+- Unauthorized devices on the network  
+- Installation of unapproved software  
+- Unencrypted sensitive customer data  
+- Exposure to phishing and ransomware attacks  
+
+---
+
+## 🧠 Framework Used
+
+This implementation follows the **CIS Critical Security Controls (v8)**, focusing on Controls 1, 2, and 3 to establish a strong security foundation.
+
+---
+
+# 🔐 Control Implementation
+
+---
+
+## 🔍 Control 1: Inventory and Control of Enterprise Assets
+
+### 🎯 Goal
+Maintain visibility and control over all devices connected to the enterprise network.
+
+### ⚙️ Implementation
+
+Central-Western implemented a centralized asset inventory system that tracks all devices capable of storing, processing, or transmitting data.
+
+Each asset includes:
+
+- IP Address  
+- MAC Address  
+- Device Name  
+- Asset Owner  
+- Department  
+- Approval Status  
+
+The organization performs **weekly network scans** to identify unauthorized or unmanaged devices.
+
+Any unauthorized asset is:
+
+- Removed from the network  
+- Quarantined for investigation  
+- Logged for further analysis  
+
+### 🛡️ Security Benefit
+
+- Reduces unknown attack surface  
+- Prevents unauthorized devices from gaining access  
+- Improves incident response capabilities  
+
+---
+
+## 💻 Control 2: Inventory and Control of Software Assets
+
+### 🎯 Goal
+Ensure that only authorized software is installed and executed within the environment.
+
+### ⚙️ Implementation
+
+Central-Western created a centralized software inventory and established an **application allowlisting policy**.
+
+Key actions include:
+
+- Maintaining a list of approved software  
+- Blocking unauthorized applications from executing  
+- Enforcing application control across all endpoints  
+
+Additionally, **application hardening techniques** are used to:
+
+- Disable unnecessary features  
+- Reduce software vulnerabilities  
+- Limit exploitability  
+
+### 🛡️ Security Benefit
+
+- Prevents malware and ransomware execution  
+- Reduces risk from unapproved software  
+- Strengthens endpoint security  
+
+---
+
+## 🔐 Control 3: Data Protection
+
+### 🎯 Goal
+Protect sensitive financial and customer data from unauthorized access or exfiltration.
+
+### ⚙️ Implementation
+
+Central-Western implemented a **data classification policy** to identify sensitive data, including:
+
+- Personally Identifiable Information (PII)  
+- Financial records  
+
+The following controls were enforced:
+
+- Full-disk encryption on all endpoint devices  
+- Data Loss Prevention (DLP) system deployment  
+- Monitoring and blocking of sensitive data transfers  
+
+### 🛡️ Security Benefit
+
+- Protects sensitive data in case of device loss or theft  
+- Prevents data exfiltration  
+- Supports regulatory compliance (GLBA)  
+
+---
+
+## 📊 Implementation Summary
+
+| Control | Focus Area | Risk Reduced |
+|--------|-----------|-------------|
+| Control 1 | Asset Management | Unauthorized devices |
+| Control 2 | Software Control | Malware & ransomware |
+| Control 3 | Data Protection | Data breaches |
+
+---
+
+## 🚨 Incident Scenario
+
+### Scenario: Phishing Attack
+
+An employee receives a phishing email and unknowingly provides login credentials.
+
+### Response Using CIS Controls
+
+- **Control 1** identifies the affected device through asset tracking  
+- **Control 2** prevents malicious software from executing on the endpoint  
+- **Control 3** ensures that sensitive data remains encrypted and protected  
+
+This layered approach reduces the overall impact of the attack.
+
+---
+
+## 🧠 Key Takeaways
+
+- You cannot secure what you cannot see (asset visibility is critical)  
+- Unauthorized software is a major attack vector  
+- Data protection is essential for both security and compliance  
+- Foundational controls significantly reduce risk  
+
+---
+
+## 🛡️ Security Strategy
+
+The implementation focuses on **foundational security controls** that:
+
+- Reduce the organization’s attack surface  
+- Improve monitoring and visibility  
+- Prevent common cyber threats  
+- Support regulatory compliance  
+
+---
+
+## 🧬 MITRE ATT&CK Mapping
+
+- T1046 – Network Service Discovery  
+- T1210 – Exploitation of Remote Services  
+- T1041 – Exfiltration Over Command and Control Channel  
+
+---
+
+## 📈 Future Improvements
+
+To further enhance security, Central-Western plans to implement:
+
+- Multi-Factor Authentication (MFA)  
+- Security Information and Event Management (SIEM)  
+- Continuous vulnerability scanning  
+- Security awareness training programs  
+
+---
+
+## 🎬 Demo Video
+
+▶️ Full Walkthrough: [Add Your YouTube Link Here]
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a fictional implementation created for educational purposes only. All scenarios are conducted in a simulated environment.
