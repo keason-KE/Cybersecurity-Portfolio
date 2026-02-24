@@ -2,9 +2,9 @@
 
 Welcome to my comprehensive pentesting portfolio! Below, you'll find an overview of my work in various areas of pentesting, including Capture The Flag (CTF) competitions, demos, reports, resources, and experiences.
 
-## CTFs
-Snail CTF
-Unguided Internal CTF
+## Recent CTFs
+- Snail CTF (School)
+- Unguided Internal CTF (School)
 
 ## Demos
 Links to demos showcasing my skillset in pentesting techniques and tools.
@@ -25,8 +25,6 @@ A showcase of key reports that exhibit my abilities, methodologies, and outcomes
 - tryhackme.com
 - overthewire.org
 
-## Experiences
-A summary of my professional experience in security and pentesting.
 
 - **GitHub Username:** keason-KE
 - **Last Updated:** 2026-02-24
