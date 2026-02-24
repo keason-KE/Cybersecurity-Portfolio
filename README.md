@@ -20,7 +20,7 @@ A showcase of key reports that exhibit my abilities, methodologies, and outcomes
 
 - CIS Controls Implementation for fictional Company: https://github.com/user-attachments/files/25527210/CIS.Critical.Security.Controls.pdf
 
-## Resources I utilze
+## Resources I utilize
 - hackthebox.com
 - tryhackme.com
 - overthewire.org
