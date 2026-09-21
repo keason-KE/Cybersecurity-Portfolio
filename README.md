@@ -20,6 +20,15 @@ Project focus: connecting network scans, CVE analysis, and asset context; visual
 
 Mimir validation on September 21, 2026: 100 automated tests passed. Compliance outputs and modeled attack paths require human review.
 
+## Reproduce and inspect the projects
+
+| Project | Evidence | Run locally | Limits |
+|---|---|---|---|
+| Aegis | [Case study and screenshots](https://github.com/keason-KE/aegis) | [Setup](https://github.com/keason-KE/aegis/blob/main/docs/SETUP.md) | [Assessment](https://github.com/keason-KE/aegis/blob/main/docs/SECURITY_ASSESSMENT.md) |
+| Mimir | [My decisions and tradeoffs](https://github.com/keason-KE/mimir/blob/main/docs/CASE_STUDY.md) | [Setup and offline example](https://github.com/keason-KE/mimir/blob/main/docs/SETUP.md) | [Security boundaries](https://github.com/keason-KE/mimir/blob/main/docs/SECURITY.md) |
+
+For Mimir, I identified the HIPAA-focused compliance experience as a limitation and directed remediation-script generation. Generated scripts require human review; multi-framework compliance support is a future direction.
+
 ## Lab demonstrations
 
 The existing portfolio links to these demonstrations:
