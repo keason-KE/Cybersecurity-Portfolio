@@ -1,38 +1,44 @@
 # Cybersecurity Portfolio
 
-Welcome to my comprehensive Cybersecurity portfolio! Below, you'll find an overview of my work in various areas of pentesting, including Capture The Flag (CTF) competitions, demos, reports, resources, and experiences.
+I am Kobe Eason, a cybersecurity student at Maryville University of St. Louis, graduating in April 2028. This portfolio brings together security labs, technical demonstrations, and my work defining requirements and directing AI-assisted security projects.
 
-## 🚩 Capture The Flag (CTF) Experience
+## Security projects
 
-### Snail CTF
-* **Focus:** Web Exploitation & Linux Privilege Escalation
-* **Tools:** `Nmap`, `John the ripper`,
-* **Key Challenge:** Exploited a **Horizontal Privilege Escalation** vulnerability in a mock web application to access administrative user data.
+### Aegis — AI agent identity and access control
 
-### Unguided Internal CTF
-* **Focus:** Network Security & Traffic Analysis
-* **Tools:** `John the Ripper`, `Netcat`, `Nmap`
-* **Key Challenge:** Finding a way to conduct a reverse shell with netcat on a WordPress site.
+Project focus: a Python gateway using RBAC, JWT authentication, task-scoped permissions, and human approvals for account changes, with a dashboard for identities and audit tracing.
 
-## Demos
-Links to demos showcasing my skillset in pentesting techniques and tools.
-- Eternal Blue Exploitation: https://youtu.be/Twgs1CZ13V0
-- Wireshark Demo: https://youtu.be/crOmRfHwK2w
-- Subnetting Explanation: https://youtu.be/tFZkJNMbSRk
+**My contribution:** Defined security requirements and directed AI-assisted development. Implementation was AI-assisted, rather than independently hand-coded by me.
 
-## Reports and Documentation
-A showcase of key reports that exhibit my abilities, methodologies, and outcomes.
-- Cyberlou Mock Pentest Report (First-ever report): https://github.com/user-attachments/files/25527148/Pentest.Report.pdf
+**Verified locally on September 21, 2026:** 124 automated tests and 16 synthetic HTTP checks passed. These results do not establish production readiness or systematic resistance to prompt injection.
 
-- Snail Mock Pentest Report: https://github.com/user-attachments/files/25527119/Snail.Pentest.Report.pdf
+### Mimir — Vulnerability management and compliance
 
-- CIS Controls Implementation for fictional Company: https://github.com/user-attachments/files/25527210/CIS.Critical.Security.Controls.pdf
+Project focus: connecting network scans, CVE analysis, and asset context; visualizing potential attack paths; and comparing questionnaire responses with technical findings to identify contradictions and potential control gaps.
 
-## Resources I utilize
-- hackthebox.com
-- tryhackme.com
-- overthewire.org
+**My contribution:** Defined requirements and directed AI-assisted development. Implementation was AI-assisted, rather than independently hand-coded by me.
 
+Mimir validation on September 21, 2026: 100 automated tests passed. Compliance outputs and modeled attack paths require human review.
 
-- **GitHub Username:** keason-KE
-- **Last Updated:** 2026-02-24
+## Lab demonstrations
+
+The existing portfolio links to these demonstrations:
+
+- [Wireshark traffic analysis](https://youtu.be/crOmRfHwK2w)
+- [Subnetting explanation](https://youtu.be/tFZkJNMbSRk)
+- [EternalBlue exploitation lab](https://youtu.be/Twgs1CZ13V0)
+
+## Reports and exercises
+
+- [CIS controls exercise for a fictional company](https://github.com/user-attachments/files/25527210/CIS.Critical.Security.Controls.pdf)
+- [Snail mock penetration test report](https://github.com/user-attachments/files/25527119/Snail.Pentest.Report.pdf)
+- [Cyberlou mock penetration test report](https://github.com/user-attachments/files/25527148/Pentest.Report.pdf)
+- [CTF documentation](CTFs/README.md)
+
+These exercises are presented as lab work, not as production penetration testing engagements or proof of an organization's compliance.
+
+## Professional context
+
+My current roles include L1 Security Analyst at Maryville University MSSP and Data Center Technician Intern at World Wide Technology. My resume describes the related security monitoring, CIS control audit, phishing simulation, and infrastructure experience.
+
+[GitHub profile](https://github.com/keason-KE) · [LinkedIn](https://www.linkedin.com/in/kobe-eason-65a306335/)
