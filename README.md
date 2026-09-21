@@ -4,7 +4,7 @@ I am Kobe Eason, a cybersecurity student at Maryville University of St. Louis, g
 
 ## Security projects
 
-### Aegis — AI agent identity and access control
+### [Aegis — AI agent identity and access control](https://github.com/keason-KE/aegis)
 
 Project focus: a Python gateway using RBAC, JWT authentication, task-scoped permissions, and human approvals for account changes, with a dashboard for identities and audit tracing.
 
@@ -12,7 +12,7 @@ Project focus: a Python gateway using RBAC, JWT authentication, task-scoped perm
 
 **Verified locally on September 21, 2026:** 124 automated tests and 16 synthetic HTTP checks passed. These results do not establish production readiness or systematic resistance to prompt injection.
 
-### Mimir — Vulnerability management and compliance
+### [Mimir — Vulnerability management and compliance](https://github.com/keason-KE/mimir)
 
 Project focus: connecting network scans, CVE analysis, and asset context; visualizing potential attack paths; and comparing questionnaire responses with technical findings to identify contradictions and potential control gaps.
 
